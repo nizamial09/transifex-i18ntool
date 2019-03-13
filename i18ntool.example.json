@@ -1,0 +1,8 @@
+{
+  "sourceDirectory": "locale",
+  "targetDirectory": "locale",
+  "sourceFile": "messages.xlf",
+  "languages": "en,de",
+  "removeUnusedIds": true,
+  "quiet": false
+}
