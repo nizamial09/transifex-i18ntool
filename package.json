@@ -1,0 +1,23 @@
+{
+  "name": "ceph-dashboard-i18ntool",
+  "version": "1.0.0",
+  "description": "A tool to manage the translation files of the ceph dashboard.",
+  "main": "lib/index.js",
+  "bin": {
+    "i18ntool": "./bin/i18ntool.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sebastian Krah <exotelis@mailbox.org>",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.0.3",
+    "minimist": "^1.2.0",
+    "xliff": "^4.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Exotelis/ceph-dashboard-i18ntool.git"
+  }
+}
