@@ -14,6 +14,8 @@
   "dependencies": {
     "colors": "^1.0.3",
     "minimist": "^1.2.0",
+    "prompts": "^2.0.4",
+    "request": "^2.88.0",
     "xliff": "^4.2.0"
   },
   "repository": {
