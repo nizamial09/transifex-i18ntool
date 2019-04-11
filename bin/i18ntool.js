@@ -5,7 +5,7 @@ const util = require('../lib/util');
 const minimist = require('minimist');
 
 let argv = minimist(process.argv.slice(2), {
-  string: ['c', 'srcDir', 'tarDir', 'srcFile'],
+  string: ['c', 'srcDir', 'tarDir', 'srcFile', 'organization', 'project'],
   boolean: ['v', 'removeUnusedIds', 'q'],
   alias: util.aliases(),
   default:  {

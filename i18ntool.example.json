@@ -3,6 +3,8 @@
   "targetDirectory": "locale",
   "sourceFile": "messages.xlf",
   "languages": "en,de",
+  "organization": "ceph",
+  "project": "ceph-dashboard",
   "removeUnusedIds": true,
   "quiet": false
 }

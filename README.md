@@ -20,9 +20,11 @@ Usage:
 - `i18ntool push <options>`
 
 Options:
+- `-o`, `--organization` the unique slug of the organization on transifex
+- `-p`, `--project` the unique slug of the project on transifex
 - `--srcDir`, `--sourceDirectory` (default '.') directory where the source file is expected
 - `--srcFile`, `--sourceFile` (default 'messages.xlf') source file (relative to srcDir)
-- `-q`, `--quiet` (default 'false') quiet output. Errors will be displayed.
+- `-q`, `--quiet` (default 'false') quiet output. Errors will be displayed
 
 For more information, see the file [i18ntool.example.json](i18ntool.example.json)
 
@@ -43,6 +45,6 @@ Options:
 - `--srcFile`, `--sourceFile` (default 'messages.xlf') source file (relative to srcDir)
 - `-l`, `--languages` Comma separated list of country codes. File naming convention: `messages.<country-code>.xlf` (relative to tarDir)
 - `--removeUnusedIds` (default 'true') determine if unused IDs should be removed during merge
-- `-q`, `--quiet` (default 'false') quiet output. Errors will be displayed.
+- `-q`, `--quiet` (default 'false') quiet output. Errors will be displayed
 
 For more information, see the file [i18ntool.example.json](i18ntool.example.json)
