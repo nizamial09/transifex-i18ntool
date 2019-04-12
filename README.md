@@ -5,6 +5,7 @@ A tool to manage the translation files of the ceph dashboard.
 ## Commands
 - `push` Adds/Updates the resource files
 - `merge` Adds missing <target> tags to language files
+- `config` Configures the i18ntool
 - `help` Shows the help dialog
 - `-v` Displays the version
 
@@ -48,3 +49,12 @@ Options:
 - `-q`, `--quiet` (default 'false') quiet output. Errors will be displayed
 
 For more information, see the file [i18ntool.example.json](i18ntool.example.json)
+
+### config
+Stores information such as the auth token of transifex in a configuration file in the users home directory
+
+Usage:
+- `i18ntool config <command>`
+
+Commands:
+- `token <token>` stores the transifex auth token in the configuration file
