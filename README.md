@@ -23,8 +23,30 @@ Usage:
 Options:
 - `-o`, `--organization` the unique slug of the organization on transifex
 - `-p`, `--project` the unique slug of the project on transifex
+- `-r`, `--resource` the unique name and slug of the resource on transifex. Format must be similar to `name:slug`
 - `--srcDir`, `--sourceDirectory` (default '.') directory where the source file is expected
 - `--srcFile`, `--sourceFile` (default 'messages.xlf') source file (relative to srcDir)
+- `-a`, `--automate` (default 'false') skips every confirmation dialog with 'yes'
+- `-q`, `--quiet` (default 'false') quiet output. Errors will be displayed
+
+For more information, see the file [i18ntool.example.json](i18ntool.example.json)
+
+### pull
+Authenticate with the Transifex CLI to pull your language files.
+
+You can either use the i18n tool with a config file (json) or set the options directly on the cli.
+
+**Note:** The config file settings have a higher priority than the options on the cli
+
+Usage:
+- `i18ntool pull -c <filename>`
+- `i18ntool pull <options>`
+
+Options:
+- `--tarDir`, `--targetDirectory` (default '.') directory where the language files should be stored
+- `-p`, `--project` the unique slug of the project on transifex
+- `-r`, `--resource` the unique name and slug of the resource on transifex. Format must be similar to `name:slug`
+- `-l`, `--languages` Comma separated list of country codes.
 - `-q`, `--quiet` (default 'false') quiet output. Errors will be displayed
 
 For more information, see the file [i18ntool.example.json](i18ntool.example.json)

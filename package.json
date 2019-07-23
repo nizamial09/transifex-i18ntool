@@ -16,6 +16,7 @@
     "minimist": "^1.2.0",
     "prompts": "^2.0.4",
     "request": "^2.88.0",
+    "request-promise-native": "^1.0.7",
     "xliff": "^4.2.0"
   },
   "repository": {

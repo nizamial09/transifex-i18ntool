@@ -5,14 +5,15 @@ const util = require('../lib/util');
 const minimist = require('minimist');
 
 let argv = minimist(process.argv.slice(2), {
-  string: ['c', 'srcDir', 'tarDir', 'srcFile', 'organization', 'project'],
-  boolean: ['v', 'removeUnusedIds', 'q'],
+  string: ['c', 'srcDir', 'tarDir', 'srcFile', 'organization', 'project', 'resource'],
+  boolean: ['v', 'removeUnusedIds', 'a', 'q'],
   alias: util.aliases(),
   default:  {
     srcDir: '.',
     tarDir: '.',
     srcFile: 'messages.xlf',
     removeUnusedIds: true,
+    a: false,
     q: false
   }
 });

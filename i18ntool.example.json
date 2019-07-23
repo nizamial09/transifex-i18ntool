@@ -5,6 +5,7 @@
   "languages": "en,de",
   "organization": "ceph",
   "project": "ceph-dashboard",
+  "resource": "<name>:<slug>",
   "removeUnusedIds": true,
   "quiet": false
 }
