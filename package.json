@@ -1,6 +1,6 @@
 {
   "name": "ceph-dashboard-i18ntool",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "A tool to manage the translation files of the ceph dashboard.",
   "main": "lib/index.js",
   "bin": {
