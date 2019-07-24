@@ -4,6 +4,7 @@ A tool to manage the translation files of the ceph dashboard.
 
 ## Commands
 - `push` Adds/Updates the resource files
+- `pull` Pulls the language files from transifex
 - `merge` Adds missing <target> tags to language files
 - `config` Configures the i18ntool
 - `help` Shows the help dialog
