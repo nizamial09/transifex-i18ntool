@@ -1,6 +1,6 @@
-# ceph-dashboard-i18ntool
+# transifex-i18ntool
 
-A tool to manage the translation files of the ceph dashboard.
+A tool to manage xlf translation files on transifex.
 
 ## Commands
 - `push` Adds/Updates the resource files
