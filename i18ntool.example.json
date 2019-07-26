@@ -7,5 +7,6 @@
   "project": "ceph-dashboard",
   "resource": "<name>:<slug>",
   "removeUnusedIds": true,
+  "automate": false,
   "quiet": false
 }
